@@ -1,0 +1,23 @@
+@keyframes blue-button-change{
+    0%{
+        color: #111B47;
+        background:white;
+    }
+    100%{
+        background: #111B47;
+        color:white;
+        border-color: white;
+    }
+}
+
+@keyframes buy-button-change {
+    0%{
+        color: #111B47;
+        background: white;
+    }
+    100%{
+        background: #FFD166;
+        color:white;
+        border-color: white;
+    }
+}

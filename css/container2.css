@@ -1,0 +1,12 @@
+.container2 {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 2rem;
+    background: url(/images/undraw_mobile_login_ikmv.svg) no-repeat right 10% top 93%;
+}
+
+@media screen and (max-width: 768px) {
+    .container2 {
+        background: 0;
+    }
+}
