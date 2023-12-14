@@ -1,16 +1,7 @@
 body {
     font-family: "Roboto", "Arial", sans-serif;
     color: #5D6970;
-}
-
-.hero {
-    max-height: none;
-}
-
-.container {
     margin: 0 auto;
-    max-width: 1440px;
-    max-height: none;
 }
 
 a {
@@ -22,12 +13,21 @@ ul {
     list-style-type: none;
 }
 
-.inner {
-    margin-left: 160px;
-    margin-top: 140px;
-    line-height: 26px;
-    max-height: none;
+/* Logo */
 
+.title-Landie {
+
+    color: #37447E;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+/* Text */
+
+.inner {
+    margin-top: 140px;
+    line-height: 1.5rem;
+    max-height: none;
     color: #6F7CB2;
 }
 
@@ -38,22 +38,18 @@ ul {
 }
 
 .inner__subparaghraph {
-    margin-right: 30px;
-
+    padding: 30px, 0;
+    max-width: 264px;
     color: #5D6970;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75rems;
+    line-height: 1.25rem;
 }
 
-.title-Landie {
-
-    color: #37447E;
-    font-size: 26px;
-    font-weight: 900;
-}
+/* Titles */
 
 .title {
-    font-size: 36px;
+    align-self: center;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 48px;
 
@@ -61,22 +57,38 @@ ul {
 }
 
 .title2 {
+    align-self: center;
     color: #091133;
     font-weight: 500;
     line-height: 26px;
 }
 
 .title3 {
-    margin-top: 90px;
+    align-self: center;
     color: #37447E;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 48px;
 }
 
 .title4 {
+    align-self: center;
     color: #091133;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .inner ul {
+        flex-direction: column;
+    }
 }
